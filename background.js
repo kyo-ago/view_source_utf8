@@ -16,7 +16,6 @@ function headersReceivedListener (evn) {
 	};
 }
 function completedListener () {
-console.debug(111);
 	chrome.webRequest.onHeadersReceived.removeListener(
 		headersReceivedListener,
 		{ 'urls' : ['*://*/*.css', '*://*/*.js'] },
