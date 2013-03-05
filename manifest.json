@@ -1,0 +1,19 @@
+{
+	"name": "view souce utf8",
+	"version": "0.2",
+	"manifest_version": 2,
+	"icons": {
+		"16": "logo.png",
+		"128": "logo.png"
+	},
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"permissions": [
+		"webRequest",
+		"webRequestBlocking",
+		"webNavigation",
+		"*://*/*.css",
+		"*://*/*.js"
+	]
+}
