@@ -1,6 +1,6 @@
 {
-	"name": "view souce utf8",
-	"version": "0.2",
+	"name": "JSとかCSSのソースを見た時にShift_JISと解釈されて文字化けるのを回避するextension",
+	"version": "0.3",
 	"manifest_version": 2,
 	"icons": {
 		"16": "logo.png",
